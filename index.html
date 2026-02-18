@@ -42,26 +42,46 @@
     </nav>
 
     <section class="hero-gradient text-white pt-32 pb-24 px-4">
-        <div class="max-w-5xl mx-auto text-center">
-            <div class="inline-flex items-center gap-2 bg-blue-900/50 text-blue-200 px-4 py-1.5 rounded-full text-sm font-semibold mb-8 border border-blue-700/50">
-                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                Disponível para Projetos de Dados e Automação
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            
+            <div class="md:w-1/2 text-center md:text-left">
+                <div class="inline-flex items-center gap-2 bg-blue-900/50 text-blue-200 px-4 py-1.5 rounded-full text-sm font-semibold mb-8 border border-blue-700/50">
+                    <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                    Disponível para Projetos
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Dados brutos não tomam decisões. <br>
+                    <span class="text-blue-400">Inteligência Artificial</span> sim.
+                </h1>
+                <p class="text-lg text-slate-300 mb-10 leading-relaxed">
+                    Eu construo os sistemas que faltam na sua empresa: de <strong>robôs que leem e-mails</strong> a modelos de <strong>Machine Learning</strong> que preveem resultados.
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#solucoes" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg hover:shadow-blue-500/25">
+                        Ver Serviços
+                    </a>
+                    <a href="#portfolio" class="bg-slate-700/50 border border-slate-600 hover:bg-slate-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition backdrop-blur-sm">
+                        Ver Portfólio
+                    </a>
+                </div>
             </div>
-            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                Dados brutos não tomam decisões. <br>
-                <span class="text-blue-400">Inteligência Artificial</span> sim.
-            </h1>
-            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-                Eu construo os sistemas que faltam na sua empresa: de <strong>robôs que leem e-mails</strong> a modelos de <strong>Machine Learning</strong> que preveem resultados.
-            </p>
-            <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#solucoes" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg hover:shadow-blue-500/25">
-                    Ver Serviços
-                </a>
-                <a href="#portfolio" class="bg-slate-700/50 border border-slate-600 hover:bg-slate-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition backdrop-blur-sm">
-                    Ver Portfólio
-                </a>
+
+            <div class="md:w-1/2 flex justify-center relative">
+                <div class="absolute inset-0 bg-blue-500 blur-3xl opacity-20 rounded-full"></div>
+                
+                <img src="perfil.jpg" alt="Foto de Gabriel" class="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-slate-700 shadow-2xl hover:scale-105 transition duration-500">
+                
+                <div class="absolute -bottom-4 -right-4 bg-slate-800 p-4 rounded-lg border border-slate-700 shadow-xl hidden md:block animate-bounce">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-green-500/20 p-2 rounded-full text-green-400"><i class="fas fa-check"></i></div>
+                        <div>
+                            <p class="text-xs text-slate-400">Automação</p>
+                            <p class="font-bold text-sm">Ativa 24/7</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
 
